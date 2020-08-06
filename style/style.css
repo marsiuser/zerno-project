@@ -1416,3 +1416,166 @@ li{
 .contact-bottom__right:hover{
     background-color: #f3a726;
 }
+
+/* SERVICES PAGE */
+.services-sidebar__list .services-sidebar__list-active{
+    position: relative;
+    color: #f3a726;
+}
+
+.services-sidebar__list .services-sidebar__list-active::after {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 280px;
+    height: 2px;
+    background-color: #f3a726;
+    right: 0;
+    margin: 0 auto;
+    display: block;
+  }
+
+.services-box{
+    width: 78%;
+}
+
+.services-top__image{
+    margin-top: 79px;
+    width: 100%;
+}
+
+.services{
+    padding: 0px 0px 0px 60px;
+}
+.services-top__image img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.services-text{
+    margin: 74px 132px 0px 133px;
+    color: #6e4533;
+}
+
+.services-text h4{
+    margin-top: 30px;
+    font-size: 20px;
+    letter-spacing: 0.4px;
+}
+
+.services-text h3{
+    font-family: "Rubikmedium";
+    font-size: 27px;
+    text-transform: uppercase;
+}
+
+.services-text p{
+    margin-top: 24px;
+    line-height: 27px;
+    font-size: 16px;
+}
+
+.services-text .services-list{
+    margin-top: 19px;
+    margin-left: 46px;
+    font-size: 16px;
+}
+
+.services-text .services-list li{
+    margin-bottom: 22px;
+    position: relative;
+}
+
+.services-text .services-list li::before{
+    content: "";
+    position: absolute;
+    display: block;
+    top: 7px;
+    left: -42px;
+    background: url(../img/list-style.png) no-repeat;
+    background-size: 100%;
+    width: 26px;
+    height: 20px;
+}
+
+.services-images{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    margin-right: 22px;
+}
+
+.services-images__item{
+    width: 30%;
+    height: 389px;
+}
+
+
+.services-images__item:first-child{
+    width: 36%;
+}
+.services-images__item img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.services-text .services-list-num li{
+    list-style-type: decimal;
+}
+
+.services-text .services-list-num li::before{
+    display: none;
+}
+
+.services{
+    position: relative;
+}
+
+.services::after{
+    content: "";
+    position: absolute;
+    display: block;
+    top: 18%;
+    right: 0px;
+    background: url(../img/services-fon1.png) no-repeat;
+    background-size: 100%;
+    width: 1350px;
+    height: 1050px;
+    z-index: -1;
+    background-size: 100%;
+}
+
+
+.services::before{
+    content: "";
+    position: absolute;
+    display: block;
+    bottom: -31%;
+    right: 0px;
+    background: url(../img/services-fon2.png) no-repeat;
+    background-size: 100%;
+    width: 1350px;
+    height: 1050px;
+    z-index: -1;
+    background-size: 100%;
+}
+
+
+.services-fon img{
+    position: absolute;
+    bottom: 40%;
+    left: -2%;
+    width: 32%;
+}
+
+.services-images__item-mob{
+    display: none;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.services-images__item-mob img{
+    width: 100%;
+    object-fit: cover;
+}
